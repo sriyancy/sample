@@ -7,8 +7,8 @@ const mongo_store = require('seneca-mongo-store');
 seneca
   .use("entity")
   .use('mongo-store', {
-//     uri: 'mongodb://user1:user1@172.30.66.141:27017/checkconnect
-  uri :'mongodb://admin:India2020@172.30.20.142:27017/sampledb'
+
+  uri :'mongodb://user1:user1@172.30.201.105:27017/checkconnect'
   })
 
 
