@@ -8,7 +8,7 @@ seneca
   .use("entity")
   .use('mongo-store', {
 
-  uri :'mongodb://user1:user1@172.30.66.141:27017/checkconnect'
+  uri :'mongodb://user1:user1@mongo:27017/checkconnect'
  // 172.30.66.141
   })
 
