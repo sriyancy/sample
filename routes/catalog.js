@@ -8,8 +8,8 @@ seneca
   .use("entity")
   .use('mongo-store', {
 
-  url :'mongodb://admin:India2020@172.30.75.153:27017/sampledb'
- // 172.30.66.141
+  url :'mongodb://admin:India%402020@172.30.235.158:27017/sampledb'
+ // 172.30.75.153
   })
 
 
